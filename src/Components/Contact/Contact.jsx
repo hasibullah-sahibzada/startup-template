@@ -89,7 +89,7 @@ export default function Contact() {
 
         {/* form div starts*/}
         <div className="flex flex-col">
-          <div className="flex flex-col items-end relative top-28 ml-[22rem] sm:left-3 lg:mr-32 lg:left-36 lg:top-24">
+          <div className="flex flex-col items-end relative top-28 ml-88 sm:left-3 lg:mr-32 lg:left-36 lg:top-24">
             <svg
               className="z-10"
               width="34"
@@ -316,7 +316,7 @@ export default function Contact() {
                 <input
                   type="text"
                   placeholder="Your Name"
-                  className="w-full px-4 py-3 border dark:bg-[#111928] rounded-sm focus:outline-none focus:ring-1 dark:focus:ring-0 dark:text-gray-300 focus:ring-[#3758F9]"
+                  className="w-full px-4 py-3 border border-gray-300 dark:bg-[#111928] rounded-sm focus:outline-none focus:ring-1 dark:focus:ring-0 dark:text-gray-300 focus:ring-[#3758F9]"
                 />
               </div>
 
@@ -324,7 +324,7 @@ export default function Contact() {
                 <input
                   type="email"
                   placeholder="Your Email"
-                  className="w-full px-4 py-3 border dark:bg-[#111928] rounded-sm focus:outline-none focus:ring-1 dark:focus:ring-0 dark:text-gray-300 focus:ring-[#3758F9]"
+                  className="w-full px-4 py-3 border border-gray-300 dark:bg-[#111928] rounded-sm focus:outline-none focus:ring-1 dark:focus:ring-0 dark:text-gray-300 focus:ring-[#3758F9]"
                 />
               </div>
 
@@ -332,14 +332,14 @@ export default function Contact() {
                 <input
                   type="tel"
                   placeholder="Your Phone Number"
-                  className="w-full px-4 py-3 border dark:bg-[#111928] rounded-sm focus:outline-none focus:ring-1 dark:focus:ring-0 dark:text-gray-300 focus:ring-[#3758F9]"
+                  className="w-full px-4 py-3 border border-gray-300 dark:bg-[#111928] rounded-sm focus:outline-none focus:ring-1 dark:focus:ring-0 dark:text-gray-300 focus:ring-[#3758F9]"
                 />
               </div>
 
               <div className="mb-8">
                 <textarea
                   placeholder="Your Message"
-                  className=" w-full px-4 py-3 border dark:bg-[#111928] rounded-sm focus:outline-none focus:ring-1 dark:focus:ring-0 dark:text-gray-300 focus:ring-[#3758F9] h-40 resize-none"
+                  className=" w-full px-4 py-3 border border-gray-300 dark:bg-[#111928] rounded-sm focus:outline-none focus:ring-1 dark:focus:ring-0 dark:text-gray-300 focus:ring-[#3758F9] h-40 resize-none"
                 ></textarea>
               </div>
 
